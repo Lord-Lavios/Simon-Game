@@ -105,8 +105,8 @@ button {
 
 @media (max-width: 680px) {
   #only-div-inside {
-    width: 390px;
-    height: 390px; } }
+    width: 385px;
+    height: 385px; } }
 
 @media (max-width: 570px) {
   #container {
@@ -114,15 +114,15 @@ button {
   h2 {
     font-size: 32px; }
   #only-div-inside {
-    width: 340px;
-    height: 340px; } }
+    width: 335px;
+    height: 335px; } }
 
 @media (max-width: 480px) {
   #only-div-inside {
-    width: 320px;
-    height: 320px; } }
+    width: 315px;
+    height: 315px; } }
 
 @media (max-width: 400px) {
   #only-div-inside {
-    width: 260px;
-    height: 260px; } }
+    width: 255px;
+    height: 255px; } }
