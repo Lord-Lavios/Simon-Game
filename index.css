@@ -43,9 +43,9 @@ h2 {
 
 .box {
   display: inline-block;
-  width: 48%;
-  margin: 2px;
-  height: 48%; }
+  width: 47%;
+  margin: 4px;
+  height: 47%; }
 
 #only-div-inside {
   width: 450px;
