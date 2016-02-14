@@ -1,0 +1,132 @@
+body,html,p,h2,h3,h1,button
+	margin: 0
+	padding: 0
+
+@-webkit-keyframes hover
+	0%
+		background-color: lighten(#BCBCBC, 9)
+	100%
+		background-color: #15D3A9
+
+@-webkit-keyframes clickTrans
+	0%
+		opacity: 1
+	100%
+		opacity: 0.6
+
+#container
+	width: 70%
+	margin: 0 auto
+
+h2
+	text-align: center
+	color: white
+	box-sizing: border-box
+	font-size: 48px
+	padding-top: 25px
+	padding-bottom: 25px
+	letter-spacing: 3px
+	font-family: 'Poiret One', cursive
+	font-weight: 100
+	background-color: #15D3A9
+	width: 100%
+	box-shadow: 0px 0px 15px 3.5px #E0E0E0
+	margin: 0 auto
+	margin-top: 25px
+	margin-bottom: 25px
+
+#only-div
+	width: 100%
+	box-sizing: border-box
+	margin: 0 auto
+	margin-bottom: 25px
+
+.box
+	display: inline-block
+	width: 48%
+	height: 48%
+
+#only-div-inside
+	width: 450px
+	height: 450px
+	margin: 0 auto
+	padding: 10px
+
+#blue
+	background-color: #0F93DF  
+
+#green	
+	background-color: #1EC66D
+
+#red
+	background-color: #C83030	
+
+#yellow
+	background-color: lighten(#F4D737, 10)	
+
+button,p
+	display: inline-block
+
+p
+	margin-left: 50px
+	padding: 5px
+	font-size: 18px
+	letter-spacing: 2px
+	font-family: 'Poiret One', cursive
+	border: 0px solid black
+	color: black
+	font-weight: 800
+	width: 110px
+
+button
+	padding: 5px	
+	width: 110px
+	font-size: 18px
+	letter-spacing: 2px
+	font-family: 'Poiret One', cursive
+	border: 0px solid black
+	color: white
+	background-color: lighten(#BCBCBC, 9)
+
+#steps
+	width: 100%
+	margin: 0 auto
+	text-align: center
+	margin-top: 25px
+
+
+#start
+	cursor: pointer
+
+	&:hover
+		-webkit-animation: hover 1.5s forwards
+
+#buttons
+	text-align: center
+
+@media (max-width: 680px)
+	#only-div-inside	
+		width: 	390px
+		height: 390px
+
+
+@media (max-width: 570px)
+	#container
+		width: 80%
+
+	h2
+		font-size: 32px
+
+	#only-div-inside	
+		width: 	340px
+		height: 340px	
+
+@media (max-width: 480px)
+	#only-div-inside	
+		width: 	320px
+		height: 320px
+
+@media (max-width: 400px)
+	#only-div-inside
+		width: 260px
+		height: 260px
