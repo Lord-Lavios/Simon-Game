@@ -44,7 +44,7 @@ h2 {
 .box {
   display: inline-block;
   width: 48%;
-  margin: 4px;
+  margin: 2px;
   height: 48%; }
 
 #only-div-inside {
@@ -105,8 +105,8 @@ button {
 
 @media (max-width: 680px) {
   #only-div-inside {
-    width: 385px;
-    height: 385px; } }
+    width: 395px;
+    height: 395px; } }
 
 @media (max-width: 570px) {
   #container {
@@ -114,15 +114,15 @@ button {
   h2 {
     font-size: 32px; }
   #only-div-inside {
-    width: 335px;
-    height: 335px; } }
+    width: 345px;
+    height: 345px; } }
 
 @media (max-width: 480px) {
   #only-div-inside {
-    width: 315px;
-    height: 315px; } }
+    width: 325px;
+    height: 325px; } }
 
 @media (max-width: 400px) {
   #only-div-inside {
-    width: 255px;
-    height: 255px; } }
+    width: 265px;
+    height: 265px; } }
