@@ -134,4 +134,9 @@ button {
   .box {
     width: 45%;
     height: 45%; }
+  .container {
+    width: 95%; } 
+  #buttons {
+    width: 100%; }
+  }  
 }
