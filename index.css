@@ -130,4 +130,8 @@ button {
 @media (max-width: 360px) {
   #only-div-inside {
     width: 205px;
-    height: 205px; } }
+    height: 205px; }
+  .box {
+    width: 45%;
+    height: 45%; }
+}
