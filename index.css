@@ -139,4 +139,7 @@ button {
   #buttons {
     width: 100%; }
   }  
+  p {
+    margin-left: 20px;
+  }
 }
