@@ -119,10 +119,10 @@ button {
 
 @media (max-width: 480px) {
   #only-div-inside {
-    width: 325px;
-    height: 325px; } }
+    width: 335px;
+    height: 335px; } }
 
 @media (max-width: 400px) {
   #only-div-inside {
-    width: 265px;
-    height: 265px; } }
+    width: 275px;
+    height: 275px; } }
