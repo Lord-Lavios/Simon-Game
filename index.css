@@ -126,3 +126,8 @@ button {
   #only-div-inside {
     width: 275px;
     height: 275px; } }
+
+@media (max-width: 360px) {
+  #only-div-inside {
+    width: 205px;
+    height: 205px; } }
